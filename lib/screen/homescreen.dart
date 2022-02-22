@@ -36,25 +36,15 @@ class _HomeScreenState extends State<HomeScreen> {
         type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/gallery.png",color: Colors.white,width: 34,height: 31,), title: Text('Gallery',style: TextStyle(
-            color: Colors.white),)),
+              icon: Image.asset("assets/images/gallery.png",color: Colors.white,width: 34,height: 31,), ),
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/chekc.png",color: Colors.white,width: 34,height: 31,), title: Text('Check-in'
-              ,style: TextStyle(
-                  color: Colors.white))),
+              icon: Image.asset("assets/images/chekc.png",color: Colors.white,width: 34,height: 31,), ),
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/feeds.png",color: Colors.white,width: 34,height: 31,), title: Text('Feeds',
-              style: TextStyle(
-                  color: Colors.white
-              ))),
+              icon: Image.asset("assets/images/feeds.png",color: Colors.white,width: 34,height: 31,), ),
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/trainer.png",color: Colors.white,width: 34,height: 31,), title: Text('My trainers',style: TextStyle(
-              color: Colors.white
-          ))),
+              icon: Image.asset("assets/images/trainer.png",color: Colors.white,width: 34,height: 31,), ),
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/account.png",color: Colors.white,width: 34,height: 31,), title: Text('Profile',style: TextStyle(
-              color: Colors.white
-          ))),
+              icon: Image.asset("assets/images/account.png",color: Colors.white,width: 34,height: 31,), ),
         ],
         currentIndex: _selectedIndex,
         fixedColor: Colors.black87,

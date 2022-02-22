@@ -112,8 +112,7 @@ class _OtpScreenState extends State<OtpScreen> {
                             textStyle: TextStyle(
                                 color: Colors.white
                             ),
-                            textInputType: TextInputType.phone,
-                            obsecureText: false,
+
                             autoDismissKeyboard: true,
                             animationType: AnimationType.fade,
                             validator: (text){
